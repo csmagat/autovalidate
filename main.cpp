@@ -23,6 +23,11 @@ int main(){
   getline(cin,input);
   transform(input.begin(), input.end(), input.begin(), [](unsigned char c){ return std::tolower(c); });
   cout << VALIDATION[pick] << "! Let's listen to more\n";
+  if (input == "nothing" ) {
+    return 0;
+  } else {
+    cout << VALIDATION[pick] << "! Let's listen to more\n";
+  }
 
   do{
     cout << "What's next?\n";
