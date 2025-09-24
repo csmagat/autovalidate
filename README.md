@@ -1,3 +1,4 @@
+[![C/C++ CI](https://github.com/csmagat/autovalidate/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/csmagat/autovalidate/actions/workflows/c-cpp.yml)
 # autovalidate
 
 I like that app too!
